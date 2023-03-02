@@ -1,6 +1,6 @@
 # SvelteKit Appwrite Authentication Demo
 
-session. With this app, you can test the different authentication flows and see how they work in a Svelte-Kit application. 
+This project shows how to use Appwrite's authentication API to enable user registration, login, and logout with an email session. With this app, you can test the different authentication flows and see how they work in a Svelte-Kit application. 
 
 This project assumes that you have already set up an Appwrite server or already hosting with Appwrite. For more information on how to get started with Appwrite, here are some of my favorite links:
 
