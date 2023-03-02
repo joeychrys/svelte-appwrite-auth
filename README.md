@@ -1,6 +1,6 @@
-# Svelte-Kit Appwrite Authentication Demo
+# SvelteKit Appwrite Authentication Demo
 
-This project shows how to use Appwrite's authentication API to enable user registration, login, and logout with email secession. With this app, you can test the different authentication flows and see how they work in a Svelte-Kit application. 
+This project shows how to use Appwrite's authentication API to enable user registration, login, and logout with an email secession. With this app, you can test the different authentication flows and see how they work in a Svelte-Kit application. 
 
 This project assumes that you have already set up an Appwrite server or already hosting with Appwrite. For more information on how to get started with Appwrite, here are some of my favorite links:
 
@@ -8,19 +8,20 @@ This project assumes that you have already set up an Appwrite server or already 
 - [Linode documentation for getting started with Appwrite](https://www.linode.com/docs/guides/getting-started-appwrite/)
 - [Appwrite Youtube channel](https://www.youtube.com/watch?v=aO4mw8smXkI)
 
+Also, feel free to reach out to me on discord if you need any help; yoyojoe#5510
 
 # Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/username/project-name.git
+git clone https://github.com/joeychrys/svelte-appwrite-auth.git
 ```
 
 Change into the project directory:
 
 ```bash
-cd project-name
+cd svelte-appwrite-auth
 ```
 
 Install dependencies using yarn:
@@ -47,3 +48,13 @@ yarn dev
 ```
 
 This will start the development server and your app should be available at `http://localhost:5173/`.
+
+# Tips and Tricks
+
+* Make sure that when a user is created that they are "verified". You can verify users through the Appwrite console or use email verification. If the account is not "verified" then you can not create an email session.
+
+# Contributing
+Thank you for your interest in helping! Feel free to make a PR if anything needs to be fixed/ updated.
+
+# License
+The source code for this project is licensed under the MIT license, which you can find in the MIT-LICENSE.txt file.
